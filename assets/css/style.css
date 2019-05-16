@@ -16,7 +16,7 @@
 .link{
     text-decoration: none;
     margin-right:10px;
-    float:right;
+    float: cdright;
     color:grey;
     padding-right:20px;
     border-right:1px solid grey;
@@ -36,15 +36,40 @@
     height: 60px;
 }
 .background{
-    background-image: url(file:///C:/Users/Bexter/Desktop/playground/Basic-Portfolio/assets/images/flower.jpg);
-    width:100%;
-    height:auto;
+    background-image: url("../images/wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
-.h1{
+.center-this {
     color: #4aaaa5;
-    text-align: center;
+    text-align:top left;
+    margin: 0 auto;
+    height: 500px;
     width: 960px;
-    height: 960px;
-    background-color: #ffffff;
-    float: auto;
+    background-color: white;
+    position: relative;
+    padding:20px;
+    font-size: 25px;
+}
+.footer {
+    background: #666666;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 8px;
+    padding: 20px;
+    border-top: #4aaaa5 solid 8px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+}
+.bold{
+    font-weight: bold;
+}
+.me{
+    width:38%;
+    height:50%;
+    float:left;
 }
