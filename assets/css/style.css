@@ -43,9 +43,8 @@
 .h1{
     color: #4aaaa5;
     text-align: center;
-}
-.main{
     width: 960px;
     height: 960px;
     background-color: #ffffff;
+    float: auto;
 }
