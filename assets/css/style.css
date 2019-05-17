@@ -16,7 +16,8 @@
 .link{
     text-decoration: none;
     margin-right:10px;
-    float: cdright;
+    float: right;
+    right: 50px;
     color:grey;
     padding-right:20px;
     border-right:1px solid grey;
@@ -33,7 +34,8 @@
     width:60%;
     left:auto;
     right:auto;
-    height: 60px;
+    margin-left: 15%;
+    height: 50px;
 }
 .background{
     background-image: url("../images/wall.jpg");
@@ -42,7 +44,7 @@
    
 }
 .center-this {
-    color: #4aaaa5;
+    color: #777777;
     text-align:top left;
     margin: 0 auto;
     height: 500px;
@@ -61,15 +63,20 @@
     border-top: #4aaaa5 solid 8px;
 }
 .text{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 15px;
 }
 .bold{
     font-weight: bold;
+    color: #4aaaa5;
+
 }
 .me{
     width:38%;
     height:50%;
     float:left;
+}
+.content{
+    width: 100%
 }
