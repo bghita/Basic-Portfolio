@@ -57,15 +57,14 @@
 }
 .footer {
     background: #666666;
-    color: #eeeeee;
     text-align: center;
     font-size: 8px;
     padding: 20px;
     border-top: #4aaaa5 solid 8px;
 }
 .text{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #777777;
     font-size: 15px;
 }
 .bold{
@@ -74,9 +73,10 @@
 
 }
 .me{
-    width:38%;
-    height:50%;
+    width:30%;
+    height:70%;
     float:left;
+    padding-right: 10px;
 }
 .content{
     width: 100%;
@@ -97,4 +97,18 @@
 .label{
     font-size: 20px;
     padding-top: 30px;
+}
+.text-block{
+    position: absolute;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    bottom: 30px;
+    right: 0px;
+    height: 20px;
+    width:343px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
