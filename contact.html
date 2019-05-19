@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Becky Ghita</title>
@@ -30,12 +28,15 @@
             <hr>
             <div>
                 <form action="/action_page.php">
-                    <label for="fname">First Name</label>
+                    <label for="fname" class="label">Name</label>
                     <input class="content" type="text" id="fname" name="name" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input class="content" type="text" id="lname" name="email" placeholder="Your last name..">
-                    <textarea class="content" type="text"></textarea>
-                    <input type="submit" value="Submit">
+                    <br>
+                    <label for="lname"class="label">Email</label>
+                    <input class="content" type="text" id="lname" name="email" placeholder="example@gmail.com">
+                    <br>
+                    <label for="message" class="label">Message</label>
+                    <textarea class="box" type="text"></textarea>
+                    <input class="submit" type="submit" value="Submit">
                 </form>
             </div>
     </div>
