@@ -16,6 +16,7 @@
 
 .link{
     text-decoration: none;
+    margin-top: 30px;
     margin-right:40px;
     float: right;
     color:rgb(255, 255, 255);
@@ -26,9 +27,10 @@
 .user{
     float:left;
     margin-left: 110px;
-    background-color: #f8037e6c;
-    color: white;
-    font-size: 30px;
+    font-family:'Great Vibes', cursive;
+    /* background-color: #f8037e6c; */
+    color:#f8037e8f;
+    font-size: 50px;
     padding: 10px;
 
 }
@@ -37,7 +39,7 @@
     left:auto;
     right:auto;
     margin-left: 15%;
-    height: 50px;
+    height: 70px;
 }
 .background{
     background-image: url("../images/tree.jpeg");
@@ -54,6 +56,7 @@
     position: relative;
     padding:20px;
     font-size: 25px;
+    box-shadow: 0 0 8px 3px #f8037e6c;
 }
 .footer {
     background: #000000e0;
@@ -132,6 +135,7 @@
     position: relative;
     padding:20px;
     font-size: 25px;
+    box-shadow: 0 0 8px 3px #f8037e6c;
 }
 .space{
     line-height: 1.25;
@@ -149,4 +153,14 @@ a {
 }
 .contact {
     text-align: center;
+}
+.info {
+font-family: 'Satisfy', cursive;
+}
+
+.img {
+    height: 200px;
+    width: 900px;
+    margin-left: 50%;
+    transform: translate(-50%);
 }
