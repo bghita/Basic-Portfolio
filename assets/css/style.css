@@ -40,7 +40,6 @@
     font-family:'Great Vibes', cursive;
     /* background-color: #f8037e6c; */
     color:rgba(245, 245, 245, 0.74);
-    background-color:none;
     font-size: 40px !important;
     padding: 10px;
 
@@ -89,9 +88,9 @@
     font-family: 'Poiret One', cursive;
 }
 .me{
-    width:30%;
-    height:67%;
-    float:left;
+    width:60%;
+    height:60%;
+    float:right;
     padding-right: 10px;
 }
 .p2{
@@ -105,8 +104,8 @@
     font-size: 13px;  
 }
 .box{
-    width: 70%;
-    height: 100px;
+    width: 38%;
+    height: 180px;
 }
 .submit{
     background-color: #f8037e3a;
@@ -116,7 +115,7 @@
     padding-bottom: 1px;
     padding-left: 10px;
     padding-right: 10px;
-    float:right;
+    float:left;
 }
 .label{
     font-size: 20px;
@@ -174,7 +173,7 @@ a {
 }
 .contact {
     text-align: center;
-    margin-right:20%;
+    margin-right:10%;
     float: right;
     transform: translate(-50%);
 }
@@ -187,9 +186,6 @@ font-family: 'Satisfy', cursive;
     width: 900px;
     margin-left: 50%;
     transform: translate(-50%);
-}
-.userInput {
-    margin-bottom: 50%;
 }
 .bg-dark {
     background-color: black !important;
