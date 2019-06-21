@@ -54,14 +54,12 @@
 .background{
     background-image: url("../images/tree.jpeg");
     background-size: cover;
-    height: 700px;
+    height: 100vh;
 }
 .center-this {
     color: #ffffff;
     text-align: left;
     margin: 0 auto;
-    height: 640px;
-    width: 960px;
     background-color: rgba(8, 8, 8, 0.733);
     position: relative;
     padding:20px;
@@ -149,8 +147,6 @@
     color: #777777;
     text-align: left;
     margin: 0 auto;
-    height:430px;
-    width: 980px;
     background-color: rgba(8, 8, 8, 0.733);
     position: relative;
     padding:20px;
