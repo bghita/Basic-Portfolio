@@ -88,10 +88,11 @@
     font-family: 'Poiret One', cursive;
 }
 .me{
-    width:60%;
+    width:40%;
     height:60%;
-    float:right;
-    padding-right: 10px;
+    float:left;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 .p2{
     width:30%;
@@ -115,7 +116,7 @@
     padding-bottom: 1px;
     padding-left: 10px;
     padding-right: 10px;
-    float:left;
+    float:right;
 }
 .label{
     font-size: 20px;
@@ -172,10 +173,10 @@ a {
     text-decoration: none;
 }
 .contact {
+    float: left;
     text-align: center;
-    margin-right:10%;
-    float: right;
-    transform: translate(-50%);
+    margin-top: -50px;
+    padding-left: 160px;
 }
 .info {
 font-family: 'Satisfy', cursive;
@@ -189,4 +190,11 @@ font-family: 'Satisfy', cursive;
 }
 .bg-dark {
     background-color: black !important;
+}
+.me2 {
+    width:60%;
+    height:60%;
+    float:left;
+    padding-left: 10px;
+    padding-right: 15px;
 }
