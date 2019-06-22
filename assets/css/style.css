@@ -59,6 +59,7 @@
 .center-this {
     color: #ffffff;
     text-align: left;
+    min-height: 500px;
     margin: 0 auto;
     background-color: rgba(8, 8, 8, 0.733);
     position: relative;
@@ -119,6 +120,7 @@
 .label{
     font-size: 20px;
     padding-top: 30px;
+    float:left;
 }
 .text-block{
     position: absolute;
@@ -179,8 +181,8 @@ font-family: 'Satisfy', cursive;
 }
 
 .img {
-    height: 200px;
-    width: 900px;
+    height: 250px;
+    width: 1200px;
     margin-left: 50%;
     transform: translate(-50%);
 }
@@ -188,8 +190,8 @@ font-family: 'Satisfy', cursive;
     background-color: black !important;
 }
 .me2 {
-    width:60%;
-    height:60%;
+    width:30%;
+    height:30%;
     float:left;
     padding-left: 10px;
     padding-right: 15px;
