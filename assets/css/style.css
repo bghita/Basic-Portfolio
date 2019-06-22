@@ -59,7 +59,6 @@
 .center-this {
     color: #ffffff;
     text-align: left;
-    min-height: 500px;
     margin: 0 auto;
     background-color: rgba(8, 8, 8, 0.733);
     position: relative;
@@ -104,8 +103,9 @@
     font-size: 13px;  
 }
 .box{
-    width: 38%;
+    width: 90%;
     height: 180px;
+    float:right;
 }
 .submit{
     background-color: #f8037e3a;
@@ -117,10 +117,12 @@
     padding-right: 10px;
     float:right;
 }
-.label{
-    font-size: 20px;
-    padding-top: 30px;
+.content{
     float:left;
+}
+.label{
+    float:left;
+    font-size: 20px;
 }
 .text-block{
     position: absolute;
@@ -190,9 +192,12 @@ font-family: 'Satisfy', cursive;
     background-color: black !important;
 }
 .me2 {
-    width:30%;
+    min-width:10%;
     height:30%;
     float:left;
     padding-left: 10px;
     padding-right: 15px;
+}
+.space2{
+    padding-bottom: 50px;
 }
