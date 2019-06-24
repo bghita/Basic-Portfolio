@@ -144,10 +144,12 @@
 .skate{
     float: left;
     margin: 30px;
+    transform: translate(-50%);
 }
 .car{
     float: left;
     margin: 30px;
+    transform: translate(-50%)
 }
 .main-content {
     color: #777777;
