@@ -1,6 +1,6 @@
 
 .navbar-toggler {
-    box-shadow: 0 0 8px 3px #f8037e6c;
+    box-shadow: 0 0 8px 3px whitesmoke;
     color: white !important;
     margin-left: 770px;
 }
@@ -59,6 +59,7 @@
 .center-this {
     color: #ffffff;
     text-align: left;
+    max-width: 1100px;
     margin: 0 auto;
     background-color: rgba(8, 8, 8, 0.733);
     position: relative;
@@ -71,7 +72,7 @@
     text-align: center;
     font-size: 8px;
     padding: 25px;
-    border-top: #f8037e6c solid 9px;
+    border-top: #23bb156c solid 9px;
     bottom:0px;
     width: 100%;
 }
@@ -82,7 +83,7 @@
 }
 .bold{
     font-weight: bold;
-    color: #f8037e6c;
+    color:whitesmoke;
     font-family: 'Poiret One', cursive;
 }
 .me{
@@ -151,6 +152,7 @@
 .main-content {
     color: #777777;
     text-align: left;
+    max-width: 1100px;
     margin: 0 auto;
     background-color: rgba(8, 8, 8, 0.733);
     position: relative;
