@@ -1,11 +1,10 @@
 
 .navbar-toggler {
     box-shadow: 0 0 8px 3px #fdfcfb59;
-    color: white !important;
     margin-left: 770px;
 }
 .nav-link{
-    float:right;
+    float:left;
     margin-right:50px;
 }
 .body{
@@ -35,12 +34,11 @@
     border-right:1px solid grey;
 }
 .user{
-    margin-left: 60px;
+    
     float: left;
     font-family:'Great Vibes', cursive;
-    /* background-color: #f8037e6c; */
-    color:rgba(245, 245, 245, 0.74);
-    font-size: 40px !important;
+    color:rgba(25, 229, 236, 0.74);
+    font-size: 50px !important;
     padding: 10px;
 
 }
@@ -72,7 +70,7 @@
     text-align: center;
     font-size: 8px;
     padding: 25px;
-    border-top: #bb0404c7 solid 9px;
+    border-top: #468a8486 solid 9px;
     bottom:0px;
     width: 100%;
 }
@@ -163,6 +161,9 @@
 }
 .space{
     line-height: 1.25;
+    padding-left:70px;
+    padding-right: 70px;
+    text-align: center;
     color: rgba(245, 245, 245, 0.651);
 }
 #fname {
@@ -192,8 +193,8 @@ text-align: center;
     font-family: 'Poiret One', cursive;
 }
 .img {
-    height: 350px;
-    width: 1200px;
+    height: 320px;
+    width: 900px;
     margin-left: 50%;
     transform: translate(-50%);
 }
